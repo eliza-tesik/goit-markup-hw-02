@@ -141,15 +141,7 @@ button {
 
 /* ========== qualities ========== */
 
-.qualities {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 .title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -171,7 +163,6 @@ button {
 }
 
 .qualities-subtitle {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -179,15 +170,13 @@ button {
   color: var(--title-text-color);
 }
 
-/* ========== team ========== */
-
-.team {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
+.qualities-text {
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  background-color: var(--grey-bg-color);
 }
+
+/* ========== team ========== */
 
 .team-subtitle {
   font-weight: 500;
@@ -197,10 +186,16 @@ button {
   color: var(--title-text-color);
 }
 
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background-color: var(--grey-bg-color);
+}
+
 /* ========== portfolio ========== */
 
 .portfolio-subtitle {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -208,7 +203,6 @@ button {
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -227,7 +221,6 @@ button {
 
 .footer-address-link,
 .footer-contact-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
