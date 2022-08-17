@@ -3,9 +3,13 @@
   --title-text-color: #212121;
   --accent-text-color: #ffffff;
   --accent-color: #2196f3;
+  --accent-color-hover: #188ce8;
   --primary-bg-color: #ffffff;
   --dark-bg-color: #2f303a;
   --grey-bg-color: #f5f4fa;
+  --black-color: #000000;
+  --grey-color-first: #eeeeee;
+  --grey-color-second: #ececec;
 }
 
 body {
@@ -177,6 +181,10 @@ button {
 }
 
 /* ========== team ========== */
+
+.team {
+background-color: var(--grey-bg-color);
+}
 
 .team-subtitle {
   font-weight: 500;
